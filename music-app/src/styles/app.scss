@@ -6,6 +6,16 @@
 h1,h2,h3{
     color: rgb(26, 26, 26);
 }
-
+h3,h4{
+    font-weight: 400;
+}
+.App{
+    transition: all 0.5s ease in ease-in-out;
+}
+.library-active{
+    margin-left: 18%;
+}
 @import './song';
 @import './player';
+@import './library';
+@import './nav'
